@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_reminder/home.dart';
+import 'package:smart_reminder/ui/home/home_page.dart';
 
 void main() => runApp(new MyApp());
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:smart_reminder/add_reminder_page.dart';
-import 'package:smart_reminder/database/model/reminder.dart';
-import 'package:smart_reminder/home_presenter.dart';
-import 'package:smart_reminder/list.dart';
+import 'package:smart_reminder/ui/add_reminder/add_reminder_page.dart';
+import 'package:smart_reminder/model/reminder.dart';
+import 'package:smart_reminder/ui/home/home_presenter.dart';
+import 'package:smart_reminder/ui/home/list_widget.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:smart_reminder/database/model/reminder.dart';
-import 'package:smart_reminder/home_presenter.dart';
-import 'package:smart_reminder/add_reminder_page.dart';
+import 'package:smart_reminder/model/reminder.dart';
+import 'package:smart_reminder/ui/home/home_presenter.dart';
+import 'package:smart_reminder/ui/add_reminder/add_reminder_page.dart';
 import 'package:intl/intl.dart';
 
 class ReminderList extends StatelessWidget {

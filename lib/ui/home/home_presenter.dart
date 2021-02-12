@@ -1,8 +1,8 @@
 import 'package:smart_reminder/database/database_helper.dart';
-import 'package:smart_reminder/database/model/reminder.dart';
+import 'package:smart_reminder/model/reminder.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'dart:async';
-import 'database/model/reminder.dart';
+import '../../model/reminder.dart';
 
 abstract class HomeContract {
   void screenUpdate();
@@ -40,7 +40,6 @@ class HomePresenter {
 
   Reminder updateDoneField(Reminder reminder) {
     reminder.done = doneReminders.where((element) => element.id == reminder.id).isNotEmpty;
-    print(reminder.notificationId());
     return reminder;
   }
 
